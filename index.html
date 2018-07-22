@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Task List</title>
+    <script src="js/test.js"></script>
+</head>
+<body onload="loadF()">
+    
+    <div id="input">
+    <p>Task List</p>
+    <form>
+        <input type="text" id="inputText"  size="80" placeholder="New task"><br>
+        <input type="button" onclick="inputF()" value="ADD TASK" id="inputButton">
+    </form>
+    </div>
+    <div id="output">
+        <h3>
+           Tasks 
+        </h3>
+        <form>
+            <input type="text" id="filter" placeholder="Filter Tasks" size="80" oninput="filterF()"><br>
+        </form>
+       <div id="box"></div>
+    </div>
+    <div id="deleteDiv">
+    <button id="deleteButton" onclick="deleteAllF()">CLEAR TASKS</button>
+    </div>
+</body>
+</html>
