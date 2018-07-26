@@ -8,12 +8,11 @@
     <title>Task List</title>
     <script src="js/test.js"></script>
 </head>
-<body onload="loadF()">
-    
+<body>
     <div id="input">
     <p>Task List</p>
     <form>
-        <input type="text" id="inputText"  size="80" placeholder="New task"><br>
+        <input type="text" id="inputText"  size="50" placeholder="New task"><br>
         <input type="button" onclick="inputF()" value="ADD TASK" id="inputButton">
     </form>
     </div>
@@ -22,7 +21,7 @@
            Tasks 
         </h3>
         <form>
-            <input type="text" id="filter" placeholder="Filter Tasks" size="80" oninput="filterF()"><br>
+            <input type="text" id="filter" placeholder="Filter Tasks" size="50" oninput="filterF()"><br>
         </form>
        <div id="box"></div>
     </div>

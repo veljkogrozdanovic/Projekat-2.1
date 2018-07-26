@@ -61,9 +61,12 @@ function filterF() {
       }
   }
 }
+
 function saveF() {
     localStorage.setItem("memo", document.getElementById("box").innerHTML);
 }
+
+window.onload = loadF;
 function loadF() {
  document.getElementById("box").innerHTML = localStorage.getItem("memo");
  let x = document.getElementById("box").getElementsByTagName("div");
