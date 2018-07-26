@@ -6,7 +6,7 @@ body {
 #input {
   margin-left: 12px;
     background: rgb(232, 247, 246);
-    width: 50%;
+    width: 65%;
     padding: 10px;
     border: 1px solid gray;
 }
@@ -28,7 +28,7 @@ body {
 #output {
     border: 1px solid gray;
     margin-left: 12px;
-    width: 50%;
+    width: 65%;
     padding: 10px;
     background: rgb(232, 247, 246);
 }
@@ -65,7 +65,7 @@ body {
     padding: 3px 6px 2px 6px
 }
 #deleteDiv {
-    width: 50%;
+    width: 65%;
     background: rgb(232, 247, 246);
     margin-left: 12px;
     border: 1px solid gray;
