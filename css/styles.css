@@ -1,12 +1,14 @@
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #input {
   margin-left: 12px;
     background: rgb(232, 247, 246);
-    width: 65%;
+    //width: 65%;
     padding: 10px;
     border: 1px solid gray;
 }
@@ -17,7 +19,7 @@ body {
     border-bottom: 1px solid gray;
     margin-left: 15px;
     font-size: 12px;
-    width: 80%;
+   // width: 80%;
 }
 #inputButton {
     margin: 10px 0 0 15px;
@@ -28,7 +30,7 @@ body {
 #output {
     border: 1px solid gray;
     margin-left: 12px;
-    width: 65%;
+    //width: 65%;
     padding: 10px;
     background: rgb(232, 247, 246);
 }
@@ -37,7 +39,7 @@ body {
     border: none;
     border-bottom: 1px solid gray;
     margin-left: 15px;
-    width:80%
+   // width:80%
 }
 #deleteButton {
     margin-left: 14px;
@@ -65,9 +67,13 @@ body {
     padding: 3px 6px 2px 6px
 }
 #deleteDiv {
-    width: 65%;
+    //width: 65%;
     background: rgb(232, 247, 246);
     margin-left: 12px;
     border: 1px solid gray;
     padding: 10px;
 }
+@media only screen and (min-width: 600px) {
+    body {
+        padding: 0 100px;
+    }
