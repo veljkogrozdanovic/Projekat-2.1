@@ -1,4 +1,4 @@
-
+3
 body {
     display: flex;
     flex-direction: column;
@@ -70,4 +70,5 @@ body {
 @media only screen and (min-width: 600px) {
     body {
         padding: 0 100px;
+        max-width: 600px;
     }
